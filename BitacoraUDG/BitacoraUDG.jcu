@@ -17,31 +17,50 @@
 			<folderitem>
 				<path>src\Misc</path>
 			</folderitem>
+			<folderitem>
+				<path>src\Objects</path>
+			</folderitem>
 			<fileitem>
-				<path>src\Interfaces\AgendaGUI.java</path>
-				<collapsedfolds>0;0;0;0;0;0;64;59;54;49;21;13</collapsedfolds>
+				<path>src\Interfaces\AddEventoGUI.java</path>
+				<collapsedfolds>0;0;0;0;0;0;0;0;0;0;137;132;128;124;120;116;112;107;95;58</collapsedfolds>
+			</fileitem>
+			<fileitem>
+				<path>src\Interfaces\AddMateriaGUI.java</path>
+				<collapsedfolds>0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;364;318;314;310;306;294;290;286;282;278;274;261;227;198;171;150;123;90;69</collapsedfolds>
 			</fileitem>
 			<fileitem>
 				<path>src\Interfaces\DefaultFrame.java</path>
-				<collapsedfolds>0;0;0;0;0;0;78;73;68;63;58;33;22</collapsedfolds>
+				<collapsedfolds>78;68;63;58</collapsedfolds>
+			</fileitem>
+			<fileitem>
+				<path>src\Interfaces\EventosGUI.java</path>
+				<collapsedfolds>188;183;178;173;169;55;2</collapsedfolds>
 			</fileitem>
 			<fileitem>
 				<path>src\Interfaces\HorarioGUI.java</path>
-				<collapsedfolds>0;0;0;0;90;85;80;75</collapsedfolds>
+				<collapsedfolds>0;0;0;0;0;0;0;218;180;145;116;87;71;60</collapsedfolds>
 			</fileitem>
 			<fileitem>
 				<path>src\Interfaces\InicioGUI.java</path>
-				<collapsedfolds>0;0;0;0;0;0;0;103;98;93;88;83;48;34</collapsedfolds>
+				<collapsedfolds>0;0;0;0;0;0;0;0;0;154;144;139;134;129;100;75;61;18</collapsedfolds>
 			</fileitem>
 			<fileitem>
-				<path>src\Interfaces\NotasGUI.java</path>
-				<collapsedfolds>0;0;0;0;0;0;147;142;137;132;79;48</collapsedfolds>
+				<path>src\Interfaces\SalonesGUI.java</path>
+				<collapsedfolds>0;0;0;0;0;0;0;0;0;0;0;0;174;170;166;162;158;154;147;131;105;69;54;17</collapsedfolds>
+			</fileitem>
+			<fileitem>
+				<path>src\Objects\Materia.java</path>
+				<collapsedfolds>0;0;0;0;79;68;43;25</collapsedfolds>
+			</fileitem>
+			<fileitem>
+				<path>src\Objects\SesionMateria.java</path>
+				<collapsedfolds>0;0;0;0;0;0;0;0;0;104;94;84;74;64;55;46;37;26</collapsedfolds>
 			</fileitem>
 		</project>
 	</projects>
 	<open_files>
 		<docitem>
-			<path>src\Interfaces\DefaultFrame.java</path>
+			<path>src\Interfaces\AddMateriaGUI.java</path>
 			<source>true</source>
 			<index>0</index>
 			<active>false</active>
@@ -50,25 +69,84 @@
 			<path>src\Interfaces\HorarioGUI.java</path>
 			<source>true</source>
 			<index>1</index>
-			<active>false</active>
+			<active>true</active>
 		</docitem>
 		<docitem>
-			<path>src\Interfaces\InicioGUI.java</path>
+			<path>src\Objects\Materia.java</path>
 			<source>true</source>
 			<index>2</index>
 			<active>false</active>
 		</docitem>
 		<docitem>
-			<path>src\Interfaces\NotasGUI.java</path>
+			<path>src\Objects\SesionMateria.java</path>
 			<source>true</source>
 			<index>3</index>
-			<active>true</active>
+			<active>false</active>
 		</docitem>
 		<docitem>
-			<path>src\Interfaces\AgendaGUI.java</path>
+			<path>src\Interfaces\SalonesGUI.java</path>
 			<source>true</source>
 			<index>4</index>
 			<active>false</active>
 		</docitem>
+		<docitem>
+			<path>src\Interfaces\AddEventoGUI.java</path>
+			<source>true</source>
+			<index>5</index>
+			<active>false</active>
+		</docitem>
 	</open_files>
+	<symboltables>
+		<symboltable>
+			<path>src\Objects\SesionMateria.java.sdk</path>
+			<symbols>
+				<symbol>SesionMateria</symbol>
+			</symbols>
+		</symboltable>
+		<symboltable>
+			<path>src\Interfaces\SalonesGUI.java.sdk</path>
+			<symbols>
+				<symbol>AddMateriaGUI</symbol>
+				<symbol>SalonesGUI</symbol>
+			</symbols>
+		</symboltable>
+		<symboltable>
+			<path>src\Objects\Materia.java.sdk</path>
+			<symbols>
+				<symbol>Materia</symbol>
+				<symbol>SesionMateria</symbol>
+			</symbols>
+		</symboltable>
+		<symboltable>
+			<path>src\Interfaces\AddEventoGUI.java.sdk</path>
+			<symbols>
+				<symbol>AddEventoGUI</symbol>
+				<symbol>EventosGUI</symbol>
+			</symbols>
+		</symboltable>
+		<symboltable>
+			<path>src\Interfaces\AddMateriaGUI.java.sdk</path>
+			<symbols>
+				<symbol>AddMateriaGUI</symbol>
+				<symbol>HorarioGUI</symbol>
+				<symbol>Materia</symbol>
+				<symbol>SalonesGUI</symbol>
+				<symbol>SelectionHorario</symbol>
+			</symbols>
+		</symboltable>
+		<symboltable>
+			<path>src\Interfaces\HorarioGUI.java.sdk</path>
+			<symbols>
+				<symbol>AddMateriaGUI</symbol>
+				<symbol>DefaultFrame</symbol>
+				<symbol>EventosGUI</symbol>
+				<symbol>HorarioGUI</symbol>
+				<symbol>InicioGUI</symbol>
+				<symbol>Materia</symbol>
+				<symbol>NotasGUI</symbol>
+				<symbol>SesionMateria</symbol>
+				<symbol>roundButton</symbol>
+			</symbols>
+		</symboltable>
+	</symboltables>
 </workspace_user>

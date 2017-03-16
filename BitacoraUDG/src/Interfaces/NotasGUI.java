@@ -24,7 +24,7 @@ package Interfaces;
 public class NotasGUI extends DefaultFrame implements MouseListener{
 	private InicioGUI inicio;
 	private HorarioGUI horario;
-	private AgendaGUI agenda;
+	private EventosGUI eventos;
 	private JMenuBar bottomBar;
 	private JMenu materias, orden, filtros;
 	private JRadioButtonMenuItem ordenFecha,ordenTipo,ordenNombre;
@@ -90,7 +90,7 @@ public class NotasGUI extends DefaultFrame implements MouseListener{
 		//Se agregan los escuchadores de la ventana
 		this.menuHorario.addMouseListener(this);
 		this.menuAjustes.addMouseListener(this);
-		this.menuAgenda.addMouseListener(this);
+		this.menueventos.addMouseListener(this);
 		this.menuInicio.addMouseListener(this);
 		//Se configuran los componentes
 		dummyNota1.setBounds(120,this.getHeight()-110,imgNota1.getIconWidth(),imgNota1.getIconHeight());
@@ -99,6 +99,7 @@ public class NotasGUI extends DefaultFrame implements MouseListener{
 		btnSearch.setBounds(160,5,imgLupa.getIconWidth(),imgLupa.getIconHeight());
 		btnSearch.addMouseListener(this);
 		addNote.setBounds(this.getWidth()-100,this.getHeight()-140,50,50);
+		addNote.setFocusPainted(false);
 		modeloNotas.addColumn("Titulo");
 		modeloNotas.addColumn("Descripcion");
 		modeloNotas.addColumn("Multimedia");
@@ -169,9 +170,9 @@ public class NotasGUI extends DefaultFrame implements MouseListener{
     		horario = new HorarioGUI();
     		this.dispose();
     	}
-    	if(me.getSource() == this.menuAgenda)
+    	if(me.getSource() == this.menueventos)
     	{
-    		agenda = new AgendaGUI();
+    		eventos = new EventosGUI();
     		this.dispose();
     	}
     	if(me.getSource() == this.menuAjustes)

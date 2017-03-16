@@ -35,16 +35,27 @@
 			<folderitem>
 				<path>src\Misc</path>
 			</folderitem>
+			<folderitem>
+				<path>src\Objects</path>
+			</folderitem>
 			<fileitem>
 				<path>src\BitacoraUDG.java</path>
 				<folder>src</folder>
 			</fileitem>
 			<fileitem>
-				<path>src\Interfaces\AgendaGUI.java</path>
+				<path>src\Interfaces\AddEventoGUI.java</path>
+				<folder>src\Interfaces</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Interfaces\AddMateriaGUI.java</path>
 				<folder>src\Interfaces</folder>
 			</fileitem>
 			<fileitem>
 				<path>src\Interfaces\DefaultFrame.java</path>
+				<folder>src\Interfaces</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Interfaces\EventosGUI.java</path>
 				<folder>src\Interfaces</folder>
 			</fileitem>
 			<fileitem>
@@ -56,12 +67,40 @@
 				<folder>src\Interfaces</folder>
 			</fileitem>
 			<fileitem>
+				<path>src\Interfaces\MapaGUI.java</path>
+				<folder>src\Interfaces</folder>
+			</fileitem>
+			<fileitem>
 				<path>src\Interfaces\NotasGUI.java</path>
 				<folder>src\Interfaces</folder>
 			</fileitem>
 			<fileitem>
+				<path>src\Interfaces\SalonesGUI.java</path>
+				<folder>src\Interfaces</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Misc\RadioButtonEditor.java</path>
+				<folder>src\Misc</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Misc\RadioButtonRenderer.java</path>
+				<folder>src\Misc</folder>
+			</fileitem>
+			<fileitem>
 				<path>src\Misc\roundButton.java</path>
 				<folder>src\Misc</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Misc\SelectionHorario.java</path>
+				<folder>src\Misc</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Objects\Materia.java</path>
+				<folder>src\Objects</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\Objects\SesionMateria.java</path>
+				<folder>src\Objects</folder>
 			</fileitem>
 		</include>
 	</files>

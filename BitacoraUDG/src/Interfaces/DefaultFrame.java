@@ -10,7 +10,7 @@ package Interfaces;
 public class DefaultFrame extends JFrame{
 	//Atributos
 	private JMenuBar menuToolbar;
-	public JMenu menuHorario,menuAgenda,menuNotas,menuAjustes,menuInicio;
+	public JMenu menuHorario,menueventos,menuNotas,menuAjustes,menuInicio;
 	
 	/** 
 	 *Constructor DefaultFrame
@@ -25,7 +25,7 @@ public class DefaultFrame extends JFrame{
     	menuToolbar = new JMenuBar();
     	menuInicio = new JMenu("Inicio");
     	menuHorario = new JMenu("Horario");
-    	menuAgenda = new JMenu("Agenda");
+    	menueventos = new JMenu("Eventos");
     	menuNotas = new JMenu("Notas");
     	menuAjustes = new JMenu("Ajustes");
     	configComponents();
@@ -42,7 +42,7 @@ public class DefaultFrame extends JFrame{
 		}
 		menuToolbar.add(menuInicio);
 		menuToolbar.add(menuHorario);
-		menuToolbar.add(menuAgenda);
+		menuToolbar.add(menueventos);
 		menuToolbar.add(menuNotas);
 		menuToolbar.add(menuAjustes);
     	this.setBounds(300,100,800,700);
@@ -71,9 +71,9 @@ public class DefaultFrame extends JFrame{
     	this.menuNotas.setEnabled(false);
     }
     
-    public void setDisableAgenda()
+    public void setDisableeventos()
     {
-    	this.menuAgenda.setEnabled(false);
+    	this.menueventos.setEnabled(false);
     }
     
     public void setDisableAjustes()
